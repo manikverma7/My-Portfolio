@@ -15,20 +15,15 @@ function About() {
         </div> */}
         <Heading title="About" />
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          iure, odio odit quia iusto enim laborum quos corrupti quae voluptas,
-          recusandae cumque impedit numquam dignissimos. Rerum hic unde ipsum
-          quo, sit enim quae est quibusdam laudantium minima similique deserunt
-          odio debitis sint iure libero amet dolores nihil magnam. Non, nemo?
+          Enthusiastic Frontend Web and App Developer having experience of more
+          than 2 years with expertise in React, React native and Angular.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-          cupiditate dolorum officiis. Dignissimos eaque asperiores perspiciatis
-          quae architecto temporibus odio minus a atque repellat, quaerat
-          exercitationem iste, aut delectus quibusdam porro ducimus repudiandae
-          quos in voluptate error sed quo, possimus neque. Vero explicabo ad at,
-          minus architecto amet ducimus nam!
+          Passionate about I.T. profession having a B.Tech degree from DAV
+          Institute of Engineering and Technology. My interests are in Front End
+          Engineering, and I love to create beautiful and performant products
+          with delightful user experiences.
         </p>
       </div>
     </div>

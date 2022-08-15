@@ -6,6 +6,8 @@ import react from "../assets/react.png";
 import next from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import redux from "../assets/redux.png";
+
 import Heading from "./Heading";
 
 function Skills() {
@@ -20,7 +22,7 @@ function Skills() {
       id: 2,
       image: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-900",
     },
     {
       id: 3,
@@ -32,22 +34,34 @@ function Skills() {
       id: 4,
       image: react,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-500",
     },
     {
       id: 5,
-      image: next,
-      title: "Nextjs",
-      style: "shadow-sky-500",
+      image: react,
+      title: "React Native",
+      style: "shadow-blue-700",
     },
     {
       id: 6,
+      image: redux,
+      title: "Redux",
+      style: "shadow-purple-600",
+    },
+    {
+      id: 7,
+      image: next,
+      title: "Nextjs",
+      style: "shadow-white",
+    },
+    {
+      id: 8,
       image: github,
       title: "Git",
       style: "shadow-gray-500",
     },
     {
-      id: 7,
+      id: 9,
       image: tailwind,
       title: "Tailwind",
       style: "shadow-sky-800",

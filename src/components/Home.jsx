@@ -7,7 +7,7 @@ function Home() {
   return (
     <div
       name="Home"
-      className="w-full pt-20 md:pt-0 h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 "
+      className="w-full pt-20 md:pt-0 h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-800 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-content h-full px-4 md:flex-row">
         <div className="h-full flex flex-col justify-center">

@@ -7,11 +7,42 @@ function Contact() {
       name="Contact"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800"
     >
-      <div></div>
-      <Heading
-        title="Contact"
-        body="Submit the form below to get in touch with me"
-      />
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
+        <Heading
+          title="Contact"
+          body="Submit the form below to get in touch with me"
+        />
+        <div className="flex justify-center items-center">
+          <form
+            action="
+          https://getform.io/f/169edad1-f5bf-4d0b-933e-7ee6a38c462a
+          "
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name.."
+              className="p-2 border-2 rounded-md bg-transparent text-white focus:outline-none"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Enter your email.."
+              className="p-2 border-2 rounded-md bg-transparent text-white focus:outline-none my-2"
+            />
+            <textarea
+              name="message"
+              rows="10"
+              className="p-2 border-2 rounded-md bg-transparent text-white focus:outline-none"
+            ></textarea>
+            <button className="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex items-center justify-center px-6 py-3 my-8 text-white cursor-pointer hover:scale-110 duration-300">
+              Let's talk
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

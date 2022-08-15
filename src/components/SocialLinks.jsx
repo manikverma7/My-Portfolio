@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -30,6 +30,16 @@ function SocialLinks() {
       id: 3,
       child: (
         <>
+          Stack Overflow
+          <FaStackOverflow size={30} />
+        </>
+      ),
+      href: "https://stackoverflow.com/users/10959592/manik-verma",
+    },
+    {
+      id: 4,
+      child: (
+        <>
           Mail
           <HiOutlineMail size={30} />
         </>
@@ -37,7 +47,7 @@ function SocialLinks() {
       href: "mailto:manikverma6803@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume

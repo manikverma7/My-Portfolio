@@ -7,6 +7,8 @@ import next from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
+import angular from "../assets/angular.png";
+import bootstrap from "../assets/bootstrap.png";
 
 import Heading from "./Heading";
 
@@ -15,13 +17,13 @@ function Skills() {
     {
       id: 1,
       image: html,
-      title: "HTML",
+      title: "HTML5",
       style: "shadow-orange-500",
     },
     {
       id: 2,
       image: css,
-      title: "CSS",
+      title: "CSS3",
       style: "shadow-blue-900",
     },
     {
@@ -46,7 +48,7 @@ function Skills() {
       id: 6,
       image: redux,
       title: "Redux",
-      style: "shadow-purple-600",
+      style: "shadow-purple-900",
     },
     {
       id: 7,
@@ -56,21 +58,33 @@ function Skills() {
     },
     {
       id: 8,
-      image: github,
-      title: "Git",
-      style: "shadow-gray-500",
+      image: angular,
+      title: "Angular",
+      style: "shadow-red-500",
     },
     {
       id: 9,
+      image: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-700",
+    },
+    {
+      id: 10,
       image: tailwind,
       title: "Tailwind",
       style: "shadow-sky-800",
+    },
+    {
+      id: 11,
+      image: github,
+      title: "Git",
+      style: "shadow-gray-500",
     },
   ];
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-gray-800 to-black text-white w-full min-h-screen pt-20 md:pt-0"
+      className="bg-gradient-to-b from-gray-700 to-gray-900 text-white w-full min-h-screen pt-20 md:pt-0"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <Heading
@@ -78,7 +92,7 @@ function Skills() {
           body="These are the technologies I've worked with"
         />
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 w-full text-center px-12 py-8 gap-8 sm:px-0 ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 w-full text-center px-12 gap-8 sm:px-0 ">
           {skills.map(({ id, image, title, style }) => (
             <div
               key={id}

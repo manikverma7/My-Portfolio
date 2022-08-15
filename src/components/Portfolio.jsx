@@ -53,7 +53,7 @@ function Portfolio() {
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen pt-20 md:pt-0 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <Heading title="Portfolio" body="Check out some of my work here" />
@@ -69,13 +69,13 @@ function Portfolio() {
                 {demo ? (
                   <>
                     <button
-                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                      className="w-1/2 px-6 py-3  my-4 duration-200 hover:scale-105"
                       onClick={() => openInNewTab(demo)}
                     >
                       Demo
                     </button>
                     <button
-                      className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                      className="w-1/2 px-6 py-3  my-4 duration-200 hover:scale-105"
                       onClick={() => openInNewTab(code)}
                     >
                       Code
@@ -83,7 +83,7 @@ function Portfolio() {
                   </>
                 ) : (
                   <button
-                    className="w-full px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-full px-6 py-3 my-4 duration-200 hover:scale-105"
                     onClick={() => openInNewTab(download)}
                   >
                     Download Apk

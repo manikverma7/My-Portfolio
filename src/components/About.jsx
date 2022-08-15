@@ -5,14 +5,9 @@ function About() {
   return (
     <div
       name="About"
-      className="w-full h-screen text-white bg-gradient-to-b from-gray-800 to-black"
+      className="w-full min-h-screen md:h-screen text-white bg-gradient-to-b from-gray-800 to-black pt-20 md:pt-0"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        {/* <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
-        </div> */}
         <Heading title="About" />
         <p className="text-xl mt-20">
           Enthusiastic Frontend Web and App Developer having experience of more

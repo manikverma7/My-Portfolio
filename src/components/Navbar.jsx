@@ -29,7 +29,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="flex justify-between items-center text-white bg-black px-4 w-full h-20 fixed">
+    <div className="flex justify-between items-center text-white bg-black px-4 w-full h-20 fixed top-0 z-10">
       <div>
         <h1 className="text-5xl ml-2 font-signature">Manik</h1>
       </div>

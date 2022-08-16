@@ -19,7 +19,7 @@ function Portfolio() {
       code: "https://github.com/manikverma7/Trillo-FlexBox",
       download: "",
       techStack: ["HTML5", "Scss", "Flexbox"],
-      description: "A demo webpage built using Html5, Scss and Flexbox",
+      description: "A webpage built using Html5, Scss and Flexbox",
       descriptionColor: "text-pink-600",
     },
     {
@@ -29,7 +29,7 @@ function Portfolio() {
       code: "https://github.com/manikverma7/Nexter-CSS-Grids",
       download: "",
       techStack: ["HTML5", "Scss", "Grid"],
-      description: "A demo webpage built using Html5, Scss and Grid",
+      description: "A webpage built using Html5, Scss and Grid",
       descriptionColor: "text-white",
     },
     {
@@ -101,13 +101,13 @@ function Portfolio() {
             }) => (
               <div
                 key={id}
-                className="shadow-md shadow-gray-500 rounded-lg hover:scale-105"
+                className="shadow-md shadow-gray-500 rounded-lg hover:scale-105 duration-300"
               >
                 <figure className="group rounded-md relative  ">
                   <img
                     src={image}
                     alt=""
-                    className="rounded-md overflow-hidden group-hover:blur-sm  duration-200 h-40 w-full"
+                    className="rounded-md overflow-hidden group-hover:blur-sm  duration-300 h-40 w-full"
                   />
                   <figcaption
                     className={`absolute p-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 w-full h-full flex justify-center items-center  opacity-0 group-hover:opacity-100 group-hover:-translate-y-1/2  duration-300  rounded-md overflow-hidden ${descriptionColor}`}

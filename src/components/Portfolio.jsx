@@ -110,17 +110,17 @@ function Portfolio() {
                     className="rounded-md overflow-hidden group-hover:blur-sm  duration-300 h-40 w-full"
                   />
                   <figcaption
-                    className={`absolute p-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 w-full h-full flex justify-center items-center  opacity-0 group-hover:opacity-100 group-hover:-translate-y-1/2  duration-300  rounded-md overflow-hidden ${descriptionColor}`}
+                    className={`absolute p-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 w-full h-min flex justify-center items-center  opacity-0 group-hover:opacity-100 group-hover:-translate-y-1/2  duration-300  rounded-md overflow-hidden ${descriptionColor}`}
                   >
                     {description}
                   </figcaption>
                 </figure>
 
-                <div className="p-2 grid grid-cols-3 gap-2">
+                <div className="p-2 grid grid-cols-2 md:grid-cols-3 gap-2">
                   {techStack.map((tech, index) => (
                     <span
                       key={index}
-                      className="flex justify-center items-center"
+                      className="flex justify-start md:justify-center items-center"
                     >
                       <span className="bg-sky-500 rounded-lg p-0.5 mr-1">
                         <TiTick size={12} />

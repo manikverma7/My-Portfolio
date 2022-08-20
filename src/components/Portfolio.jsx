@@ -6,6 +6,8 @@ import Newsletter from "../assets/portfolio/Newsletter.png";
 import DBZ from "../assets/portfolio/DBZ.png";
 import Heading from "./Heading";
 import activue from "../assets/portfolio/activue.png";
+import boomn from "../assets/portfolio/boomn.png";
+import cyber from "../assets/portfolio/cyber.png";
 import Keeper from "../assets/portfolio/Keeper.PNG";
 
 import { TiTick } from "react-icons/ti";
@@ -21,6 +23,7 @@ function Portfolio() {
       techStack: ["HTML5", "Scss", "Flexbox"],
       description: "A webpage built using Html5, Scss and Flexbox",
       descriptionColor: "text-pink-600",
+      title: "Trillo Webpage",
     },
     {
       id: 2,
@@ -31,6 +34,7 @@ function Portfolio() {
       techStack: ["HTML5", "Scss", "Grid"],
       description: "A webpage built using Html5, Scss and Grid",
       descriptionColor: "text-white",
+      title: "Nexter Website",
     },
     {
       id: 3,
@@ -42,6 +46,7 @@ function Portfolio() {
       description:
         "A signup webpage built using Html5, Css, Javascript and MongoDb",
       descriptionColor: "text-black",
+      title: "Newsletter Signup Page",
     },
     {
       id: 4,
@@ -53,6 +58,7 @@ function Portfolio() {
       description:
         "A blog website regarding Dragon Ball Anime series built using Nextjs and Cms",
       descriptionColor: "text-black",
+      title: "Dragon Ball Blog",
     },
     {
       id: 5,
@@ -63,6 +69,7 @@ function Portfolio() {
       techStack: ["React", "Hooks"],
       description: "A Todo List website built using React and Hooks",
       descriptionColor: "text-black",
+      title: "Keeper Website",
     },
     {
       id: 6,
@@ -74,6 +81,31 @@ function Portfolio() {
       techStack: ["React Native", "Redux"],
       description: "A Mobile App built using React native and Redux",
       descriptionColor: "text-black",
+      title: "Activue App",
+    },
+    {
+      id: 7,
+      image: boomn,
+      demo: "",
+      code: "",
+      download:
+        "https://drive.google.com/file/d/1qSuPtlQpXEHGClq4r0e5XPoPZT5jRKLw/view?usp=sharing",
+      techStack: ["React Native", "Redux"],
+      description: "A Mobile App built using React native and Redux",
+      descriptionColor: "text-black",
+      title: "Boomn App",
+    },
+    {
+      id: 8,
+      image: cyber,
+      demo: "",
+      code: "",
+      download:
+        "https://drive.google.com/file/d/1hxZyALcl_DAvRAUzCT4Yf1E5HqphMN2X/view?usp=sharing",
+      techStack: ["React Native", "Redux"],
+      description: "A Mobile App built using React native and Redux",
+      descriptionColor: "text-black",
+      title: "Cyber Security Demo App",
     },
   ];
 
@@ -98,6 +130,7 @@ function Portfolio() {
               techStack,
               description,
               descriptionColor,
+              title,
             }) => (
               <div
                 key={id}
@@ -115,6 +148,9 @@ function Portfolio() {
                     {description}
                   </figcaption>
                 </figure>
+                <div className="w-full text-center font-bold border-b-2 border-gray-800">
+                  {title}
+                </div>
 
                 <div className="p-2 grid grid-cols-2 md:grid-cols-3 gap-2">
                   {techStack.map((tech, index) => (

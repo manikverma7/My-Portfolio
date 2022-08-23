@@ -57,7 +57,7 @@ function Home() {
         <div>
           <img
             src={ProfileImg}
-            className="w-2/3 md:w-full rounded-2xl mx-auto px-2"
+            className="w-2/3 md:w-4/5 rounded-2xl mx-auto px-2"
             alt="my profile"
           ></img>
         </div>

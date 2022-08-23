@@ -84,7 +84,7 @@ function Skills() {
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-gray-800 to-gray-900 text-white w-full min-h-screen pt-20 "
+      className="bg-gradient-to-b from-gray-900 to-gray-800 text-white w-full min-h-screen pt-20 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <Heading

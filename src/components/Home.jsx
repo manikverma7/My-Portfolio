@@ -11,13 +11,16 @@ function Home() {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-content h-full px-4 md:flex-row">
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-white text-4xl sm:text-5xl md:text-6xl   font-bold">
-            I am a Software Engineer (Frontend)
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold">
+            I am a Software Engineer
+            <br />
+            (Front End Developer)
           </h2>
           <p className="text-gray-500 py-4 max-w-md ">
             I have 2 years of Experience building and designing Softwares.
-            Currently, I love to work on web application using technologies like
-            React, Angular, Tailwind, Css3, Html5, Javascript and Firebase.
+            Currently, I love to work on web and mobile application using
+            technologies like React, React native, Angular, Tailwind, Css3,
+            Html5, Javascript and Firebase.
           </p>
           <div>
             <Link

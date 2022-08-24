@@ -6,7 +6,7 @@ import Animation from "./Animation";
 
 function Home() {
   return (
-    <div name="Home" className="w-full pt-20 md:pt-0 h-screen ">
+    <div name="Home" className="w-full pt-20 md:pt-0 h-screen pb-10 md:pb-0">
       <Animation />
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-content h-full px-4 md:flex-row ">
         <div className="h-full flex flex-col justify-center">

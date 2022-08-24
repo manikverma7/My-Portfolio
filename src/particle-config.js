@@ -52,7 +52,7 @@ const config = {
         default: "bounce",
       },
       random: false,
-      speed: { min: 1, max: 3 },
+      speed: { min: 1, max: 2 },
       straight: false,
     },
     number: {

@@ -1,32 +1,13 @@
-import React, { useCallback } from "react";
+import React from "react";
 import ProfileImg from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import Particles from "react-tsparticles";
-
-import { loadFull } from "tsparticles";
-import config from "../particle-config";
+import Animation from "./Animation";
 
 function Home() {
-  const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
   return (
     <div name="Home" className="w-full pt-20 md:pt-0 h-screen ">
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={config}
-      />
+      <Animation />
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-content h-full px-4 md:flex-row ">
         <div className="h-full flex flex-col justify-center">
           <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold ">

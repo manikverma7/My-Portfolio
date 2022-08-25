@@ -149,14 +149,14 @@ function Portfolio() {
                 key={id}
                 className="shadow-md shadow-gray-500 rounded-lg hover:scale-105 duration-300"
               >
-                <figure className="group rounded-md relative  ">
+                <figure className="group rounded-md relative">
                   <img
                     src={image}
                     alt=""
-                    className="rounded-md overflow-hidden group-hover:blur-sm  duration-300 h-40 w-full"
+                    className="rounded-md overflow-hidden group-hover:blur-sm duration-300 h-44 w-full"
                   />
                   <figcaption
-                    className={`absolute p-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 w-full h-min flex justify-center items-center  opacity-0 group-hover:opacity-100 group-hover:-translate-y-1/2  duration-300  rounded-md overflow-hidden ${descriptionColor}`}
+                    className={`absolute p-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 w-full h-min flex justify-center items-center  opacity-0 group-hover:opacity-100 group-hover:-translate-y-1/2 duration-300  rounded-md overflow-hidden ${descriptionColor}`}
                   >
                     {description}
                   </figcaption>
@@ -165,7 +165,7 @@ function Portfolio() {
                   {title}
                 </div>
 
-                <div className="p-2 grid grid-cols-2 gap-2 h-14 px-2 sm:px-4 md:px-6 ">
+                <div className="p-2 grid grid-cols-2 gap-2 h-16 sm:h-14 sm:px-4 md:px-6 ">
                   {techStack.map((tech, index) => (
                     <span
                       key={index}

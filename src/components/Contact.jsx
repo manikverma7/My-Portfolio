@@ -36,6 +36,7 @@ function Contact() {
               name="message"
               rows="10"
               className="p-2 border-2 rounded-md bg-transparent text-white focus:outline-none"
+              placeholder="Type your message.."
             ></textarea>
             <button className="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md flex items-center justify-center px-6 py-3 my-8 text-white cursor-pointer hover:scale-110 duration-300">
               Let's talk

@@ -46,7 +46,7 @@ function Portfolio() {
       code: "",
       download:
         "https://drive.google.com/file/d/1hxZyALcl_DAvRAUzCT4Yf1E5HqphMN2X/view?usp=sharing",
-      techStack: ["React Native", "Redux"],
+      techStack: ["React Native"],
       description: "A Mobile App built using React native and Redux",
       descriptionColor: "text-black",
       title: "Cyber Security Demo App",
@@ -57,7 +57,7 @@ function Portfolio() {
       demo: "https://clone-3a842.web.app/",
       code: "https://github.com/manikverma7/amazon-clone",
       download: "",
-      techStack: ["React", "Firebase", "Context Api"],
+      techStack: ["React", "Context Api", "Firebase"],
       description:
         "Am Amazon demo clone built using React, Firebase, material-ui and Context Api",
       descriptionColor: "text-black",
@@ -165,11 +165,11 @@ function Portfolio() {
                   {title}
                 </div>
 
-                <div className="p-2 grid grid-cols-2 md:grid-cols-3 gap-2">
+                <div className="p-2 grid grid-cols-2 gap-2 h-14 px-2 sm:px-4 md:px-6 ">
                   {techStack.map((tech, index) => (
                     <span
                       key={index}
-                      className="flex justify-start md:justify-center items-center"
+                      className="flex justify-start items-center"
                     >
                       <span className="bg-sky-500 rounded-lg p-0.5 mr-1">
                         <TiTick size={12} />

@@ -9,6 +9,7 @@ import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import angular from "../assets/angular.png";
 import bootstrap from "../assets/bootstrap.png";
+import firebase from "../assets/firebase.png";
 
 import Heading from "./Heading";
 
@@ -18,7 +19,7 @@ function Skills() {
       id: 1,
       image: html,
       title: "HTML5",
-      style: "shadow-orange-500",
+      style: "shadow-orange-600",
     },
     {
       id: 2,
@@ -79,6 +80,12 @@ function Skills() {
       image: github,
       title: "Git",
       style: "shadow-gray-500",
+    },
+    {
+      id: 11,
+      image: firebase,
+      title: "Firebase",
+      style: "shadow-orange-400",
     },
   ];
   return (

@@ -9,6 +9,7 @@ import activue from "../assets/portfolio/activue.png";
 import boomn from "../assets/portfolio/boomn.png";
 import cyber from "../assets/portfolio/cyber.png";
 import Keeper from "../assets/portfolio/Keeper.PNG";
+import amazon from "../assets/portfolio/amazon.png";
 
 import { TiTick } from "react-icons/ti";
 
@@ -49,6 +50,18 @@ function Portfolio() {
       description: "A Mobile App built using React native and Redux",
       descriptionColor: "text-black",
       title: "Cyber Security Demo App",
+    },
+    {
+      id: 12,
+      image: amazon,
+      demo: "https://clone-3a842.web.app/",
+      code: "https://github.com/manikverma7/amazon-clone",
+      download: "",
+      techStack: ["React", "Firebase", "Context Api"],
+      description:
+        "Am Amazon demo clone built using React, Firebase, material-ui and Context Api",
+      descriptionColor: "text-black",
+      title: "Amazon Clone Demo",
     },
     {
       id: 4,

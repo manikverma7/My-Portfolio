@@ -1,21 +1,17 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Skills from "./components/Skills";
-import SocialLinks from "./components/SocialLinks";
+import Home from "./pages/Home";
+import ProjectDetail from "./pages/ProjectDetail";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <SocialLinks />
-      <About />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/projectDetails" element={<ProjectDetail />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

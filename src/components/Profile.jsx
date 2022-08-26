@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Animation from "./Animation";
 
-function Home() {
+function Profile() {
   return (
     <div name="Home" className="w-full pt-20 md:pt-0 h-screen pb-10 md:pb-0">
       <Animation />
@@ -47,4 +47,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Profile;

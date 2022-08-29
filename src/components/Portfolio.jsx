@@ -8,10 +8,6 @@ import { Link } from "react-router-dom";
 function Portfolio() {
   const [state, dispatch] = useStateValue();
 
-  // const openInNewTab = (url) => {
-  //   window.open(url, "_blank", "noopener,noreferrer");
-  // };
-
   const showProject = (id) => {
     console.log(state);
     dispatch({
@@ -77,29 +73,6 @@ function Portfolio() {
                   >
                     View Details
                   </Link>
-                  {/* {demo ? (
-                    <>
-                      <button
-                        className="w-1/2 px-6 py-3  my-4 duration-200 hover:scale-105"
-                        onClick={() => openInNewTab(demo)}
-                      >
-                        Demo
-                      </button>
-                      <button
-                        className="w-1/2 px-6 py-3  my-4 duration-200 hover:scale-105"
-                        onClick={() => openInNewTab(code)}
-                      >
-                        Code
-                      </button>
-                    </>
-                  ) : (
-                    <button
-                      className="w-full px-6 py-3 my-4 duration-200 hover:scale-105"
-                      onClick={() => openInNewTab(download)}
-                    >
-                      Download Apk
-                    </button>
-                  )} */}
                 </div>
               </div>
             )

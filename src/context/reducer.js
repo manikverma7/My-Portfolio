@@ -9,7 +9,7 @@ const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
     case "SELECT_PROJECT":
-      const project = state.projects.filter((item) => item.id == action.id);
+      const project = state.projects.filter((item) => item.id === action.id);
       console.log(project);
       return {
         ...state,

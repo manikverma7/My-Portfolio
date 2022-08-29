@@ -8,11 +8,12 @@ import { Link } from "react-router-dom";
 function Portfolio() {
   const [state, dispatch] = useStateValue();
 
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
+  // const openInNewTab = (url) => {
+  //   window.open(url, "_blank", "noopener,noreferrer");
+  // };
 
   const showProject = (id) => {
+    console.log(state);
     dispatch({
       type: "SELECT_PROJECT",
       id,

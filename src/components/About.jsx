@@ -66,7 +66,7 @@ function About() {
   return (
     <div
       name="About"
-      className="w-full min-h-screen md:min-h-min text-white bg-gradient-to-b from-gray-900 to-gray-800 pt-20 md:pt-0 z-10"
+      className="w-full min-h-screen md:min-h-min text-white bg-gradient-to-b from-slate-900 to-slate-800 pt-20 md:pt-0 z-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full">
         <Heading title="About" />
@@ -88,7 +88,7 @@ function About() {
               <span
                 key={id}
                 className={
-                  "flex justify-center items-center w-full h-14 bg-gray-500 px-4 hover:scale-105 duration-300 rounded-md" +
+                  "flex justify-center items-center w-full h-14 bg-slate-500 px-4 hover:scale-105 duration-300 rounded-md" +
                   " " +
                   style
                 }

@@ -15,7 +15,7 @@ function Profile() {
             <br />
             (Front End Developer)
           </h2>
-          <p className="text-gray-500 py-4 max-w-md ">
+          <p className="text-slate-500 py-4 max-w-md ">
             I have 2 years of Experience building and designing Softwares.
             Currently, I love to work on web and mobile application using
             technologies like React, React native, Angular, Tailwind, Css3,

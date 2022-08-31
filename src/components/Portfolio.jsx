@@ -19,26 +19,16 @@ function Portfolio() {
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-b from-gray-800 to-gray-900 w-full text-white min-h-screen pt-20  "
+      className="bg-gradient-to-b from-slate-800 to-slate-900 w-full text-white min-h-screen pt-20  "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <Heading title="Portfolio" body="Check out some of my work here" />
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(
-            ({
-              id,
-              image,
-              demo,
-              code,
-              download,
-              techStack,
-              description,
-              descriptionColor,
-              title,
-            }) => (
+          {portfolios.map(({ id, image, techStack, title }) => (
+            <Link onClick={() => showProject(id)} to="projectDetails">
               <div
                 key={id}
-                className="shadow-md shadow-gray-500 rounded-lg hover:scale-105 duration-300 cursor-pointer"
+                className="shadow-md shadow-slate-500 rounded-lg hover:scale-105 duration-300 cursor-pointer"
               >
                 <figure className="rounded-md relative">
                   <img
@@ -47,11 +37,11 @@ function Portfolio() {
                     className="rounded-md overflow-hidden h-44 w-full"
                   />
                 </figure>
-                <div className="w-full text-center font-bold border-b-2 border-gray-800 py-2">
+                <div className="w-full text-center font-bold border-b-2 border-slate-800 py-2">
                   {title}
                 </div>
 
-                <div className="p-2 grid grid-cols-2 gap-2 h-16 sm:h-14 sm:px-4 md:px-6">
+                <div className="p-2 grid grid-cols-2 gap-2 min-h-16 sm:h-14 sm:px-4 md:px-6">
                   {techStack.map((tech, index) => (
                     <span
                       key={index}
@@ -66,17 +56,13 @@ function Portfolio() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <Link
-                    className="w-full px-6 py-3 my-4 duration-200 hover:scale-105 text-center"
-                    onClick={() => showProject(id)}
-                    to="projectDetails"
-                  >
+                  <span className="w-full px-6 py-6 duration-200 hover:scale-105 text-center">
                     View Details
-                  </Link>
+                  </span>
                 </div>
               </div>
-            )
-          )}
+            </Link>
+          ))}
         </div>
       </div>
     </div>

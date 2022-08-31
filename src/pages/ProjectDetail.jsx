@@ -12,14 +12,14 @@ function ProjectDetail() {
       navigate("/");
       return;
     }
-  }, [projects]);
+  }, [projects, navigate, selectedProject]);
 
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <div className="w-full min-h-screen p-10 text-white bg-gradient-to-b from-gray-900 to-gray-800 z-10 flex flex-col md:flex-row pt-10 md:pt-32 ">
+    <div className="w-full min-h-screen p-12 text-white  bg-gradient-to-b from-slate-900 to-slate-800 z-10 flex flex-col md:flex-row pt-10 md:pt-32 ">
       <div className="flex flex-col w-full md:w-1/2 ">
         <p className="font-bold text-3xl mb-4">{selectedProject?.title}</p>
 

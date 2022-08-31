@@ -41,7 +41,6 @@ export const portfolios = [
     download:
       "https://drive.google.com/file/d/1qSuPtlQpXEHGClq4r0e5XPoPZT5jRKLw/view?usp=sharing",
     techStack: ["React Native", "Redux"],
-    description: "A Mobile App built using React native and Redux",
     descriptionColor: "text-black",
     title: "Boomn App",
     description: [

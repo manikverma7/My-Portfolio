@@ -51,7 +51,7 @@ function Portfolio() {
                   {title}
                 </div>
 
-                <div className="p-2 grid grid-cols-2 gap-2 h-16 sm:h-14 sm:px-4 md:px-6 ">
+                <div className="p-2 grid grid-cols-2 gap-2 h-16 sm:h-14 sm:px-4 md:px-6">
                   {techStack.map((tech, index) => (
                     <span
                       key={index}

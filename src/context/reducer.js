@@ -2,7 +2,7 @@ import { portfolios } from "../data/portfolioData";
 
 export const initialState = {
   projects: portfolios,
-  selectedProject: "",
+  selectedProject: null,
 };
 
 const reducer = (state, action) => {

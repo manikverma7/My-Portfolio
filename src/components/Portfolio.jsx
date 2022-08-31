@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-b from-slate-800 to-slate-900 w-full text-white min-h-screen pt-20  "
+      className="bg-gradient-to-b from-slate-700 to-slate-900 w-full text-white min-h-screen pt-20  "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-content w-full h-full">
         <Heading title="Portfolio" body="Check out some of my work here" />
@@ -37,7 +37,7 @@ function Portfolio() {
                     className="rounded-md overflow-hidden h-44 w-full"
                   />
                 </figure>
-                <div className="w-full text-center font-bold border-b-2 border-slate-800 py-2">
+                <div className="w-full text-center font-bold border-b-2 border-slate-700 py-2">
                   {title}
                 </div>
 

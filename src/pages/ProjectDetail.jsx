@@ -19,7 +19,7 @@ function ProjectDetail() {
   };
 
   return (
-    <div className="w-full min-h-screen p-12 text-white  bg-gradient-to-b from-slate-900 to-slate-800 z-10 flex flex-col md:flex-row pt-10 md:pt-32 ">
+    <div className="w-full min-h-screen p-12 text-white  bg-gradient-to-b from-slate-900 to-slate-700 z-10 flex flex-col md:flex-row pt-10 md:pt-32 ">
       <div className="flex flex-col w-full md:w-1/2 ">
         <p className="font-bold text-3xl mb-4">{selectedProject?.title}</p>
 

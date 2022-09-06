@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import SocialLinks from "../components/SocialLinks";
-import { FidgetSpinner } from "react-loader-spinner";
+// import { FidgetSpinner } from "react-loader-spinner";
 import { ClimbingBoxLoader } from "react-spinners";
 
 function Home() {

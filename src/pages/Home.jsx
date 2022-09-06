@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Profile from "../components/Profile";
@@ -9,21 +9,35 @@ import SocialLinks from "../components/SocialLinks";
 // import { FidgetSpinner } from "react-loader-spinner";
 import { ClimbingBoxLoader } from "react-spinners";
 
+import { useStateValue } from "../context/StateProvider";
+
 function Home() {
-  const [loading, setloading] = useState(true);
-  const [loading2, setloading2] = useState(true);
+  const [state, dispatch] = useStateValue();
 
   useEffect(() => {
-    setTimeout(() => {
-      setloading(false);
-    }, 2500);
-    setTimeout(() => {
-      setloading2(false);
-    }, 2600);
-  }, []);
+    if (state.loading) {
+      const stopLoader = () => {
+        dispatch({
+          type: "STOP_LOADER",
+        });
+      };
+      const stopLoader2 = () => {
+        dispatch({
+          type: "STOP_LOADER2",
+        });
+      };
+      setTimeout(() => {
+        stopLoader();
+      }, 2500);
+      setTimeout(() => {
+        stopLoader2();
+      }, 2600);
+    }
+  }, [dispatch, state.loading]);
+
   return (
     <>
-      {loading ? (
+      {state.loading ? (
         <div className="min-h-screen w-full flex justify-center items-center bg-slate-900">
           {/* <FidgetSpinner
             visible={loading}
@@ -36,10 +50,10 @@ function Home() {
             backgroundColor="#3b82f6"
           /> */}
 
-          <ClimbingBoxLoader color="#3b82f6" loading={loading} size={20} />
+          <ClimbingBoxLoader color="#3b82f6" loading={true} size={20} />
         </div>
       ) : (
-        <div className={loading2 ? ` bg-slate-900` : null}>
+        <div className={state.loading2 ? ` bg-slate-900` : null}>
           <Navbar />
           <Profile />
           <SocialLinks />

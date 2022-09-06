@@ -25,11 +25,8 @@ function Portfolio() {
         <Heading title="Portfolio" body="Check out some of my work here" />
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, image, techStack, title }) => (
-            <Link onClick={() => showProject(id)} to="projectDetails">
-              <div
-                key={id}
-                className="shadow-md shadow-slate-500 rounded-lg hover:scale-105 duration-300 cursor-pointer"
-              >
+            <Link onClick={() => showProject(id)} to="projectDetails" key={id}>
+              <div className="shadow-md shadow-slate-500 rounded-lg hover:scale-105 duration-300 cursor-pointer">
                 <figure className="rounded-md relative">
                   <img
                     src={image}

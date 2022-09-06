@@ -16,10 +16,10 @@ function Profile() {
             (Front End Developer)
           </h2>
           <p className="text-slate-500 py-4 max-w-md ">
-            I have 2 years of Experience building and designing Softwares.
-            Currently, I love to work on web and mobile application using
-            technologies like React, React native, Angular, Tailwind, Css3,
-            Html5, Javascript and Firebase.
+            I have more than 2 years of Experience building and designing
+            Softwares. Currently, I love to work on web and mobile application
+            using technologies like React, React native, Angular, Tailwind,
+            Css3, Html5, Javascript and Firebase.
           </p>
           <div>
             <Link

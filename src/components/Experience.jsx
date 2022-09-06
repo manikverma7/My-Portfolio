@@ -20,7 +20,7 @@ function Experience() {
     {
       title: "Content Editor",
       subTitle: "Tutorzone, Jalandhar, Punjab",
-      body: "Wrote content in english to help a Video Lecturer explain physics till 10th standard in video lectures.",
+      body: "Wrote content in english to help Video Lecturers explain physics topics till 10th standard in video lectures.",
       icon: <WorkIcon />,
       date: "Mar 2019 - Aug 2020",
     },
@@ -28,20 +28,20 @@ function Experience() {
     {
       title: "Frontend Developer Trainee",
       subTitle: "Nugen I.T. Services, Jalandhar, Punjab",
-      body: "Built a number of demo projects using Html,Css,Javascript and React.js",
+      body: "Built a number of demo projects using Html, Css, Javascript and React.js",
       icon: <WorkIcon />,
       date: "Oct 2019 - Mar 2020",
     },
     {
       title: "Home Tutor",
-      subTitle: "",
-      body: "Taught Students till 10th class.",
+      subTitle: "Star Tutorials, Jalandhar, Punjab",
+      body: "Taught Maths, Science and Coding to Students till 10th class.",
       icon: <WorkIcon />,
       date: "Nov 2019 - Aug 2020",
     },
     {
       title: "Software Engineer (Frontend Developer)",
-      subTitle: "Benytsys,Mohali",
+      subTitle: "Benytsys, Mohali, Punjab",
       body: "Build a number of Websites & Mobile Apps by working in following technologies : HTML5, Css3, Javascript, React, React-Native, Angular, Nest.js",
       icon: <WorkIcon />,
       date: "Aug 2020 - Present",
@@ -58,7 +58,7 @@ function Experience() {
         <VerticalTimeline lineColor="#3e497a">
           {experiences.map(({ title, subTitle, body, icon, date }) => (
             <VerticalTimelineElement
-              className="vertical-timeline-element--education text-white-100 "
+              className="vertical-timeline-element--education  "
               date={date}
               iconStyle={{ background: "#3e497a", color: "#fff" }}
               icon={icon}
@@ -67,7 +67,7 @@ function Experience() {
                 color: "#fff",
               }}
             >
-              <h3 className="vertical-timeline-element-title text-black-900 font-bold">
+              <h3 className="vertical-timeline-element-title font-bold">
                 {title}
               </h3>
               <h4 className="vertical-timeline-element-subtitle">{subTitle}</h4>

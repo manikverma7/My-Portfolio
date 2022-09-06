@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import About from "../components/About";
+
 import Contact from "../components/Contact";
 import Profile from "../components/Profile";
 import Navbar from "../components/Navbar";
@@ -58,7 +58,7 @@ function Home() {
           <Navbar />
           <Profile />
           <SocialLinks />
-          {/* <About /> */}
+
           <Experience />
           <Portfolio />
           <Skills />

@@ -12,7 +12,7 @@ function Navbar() {
     },
     {
       id: 2,
-      link: "About",
+      link: "Experience",
     },
     {
       id: 3,

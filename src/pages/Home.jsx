@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import About from "../components/About";
+// import About from "../components/About";
 import Contact from "../components/Contact";
 import Profile from "../components/Profile";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import SocialLinks from "../components/SocialLinks";
+import Experience from "../components/Experience";
 // import { FidgetSpinner } from "react-loader-spinner";
 import { ClimbingBoxLoader } from "react-spinners";
 
@@ -57,7 +58,8 @@ function Home() {
           <Navbar />
           <Profile />
           <SocialLinks />
-          <About />
+          {/* <About /> */}
+          <Experience />
           <Portfolio />
           <Skills />
           <Contact />

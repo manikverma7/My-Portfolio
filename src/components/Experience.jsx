@@ -42,7 +42,7 @@ function Experience() {
     {
       title: "Software Engineer (Frontend Developer)",
       subTitle: "Benytsys, Mohali, Punjab",
-      body: "Build a number of Websites & Mobile Apps by working in following technologies : HTML5, Css3, Javascript, React, React-Native, Angular, Nest.js",
+      body: "Built a number of Websites & Mobile Apps by working in following technologies : HTML5, Css3, Javascript, React, React-Native, Angular, Nest.js",
       icon: <WorkIcon />,
       date: "Aug 2020 - Present",
     },

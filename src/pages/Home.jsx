@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import Contact from "../components/Contact";
 import Profile from "../components/Profile";
 import Navbar from "../components/Navbar";
@@ -7,9 +6,7 @@ import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import SocialLinks from "../components/SocialLinks";
 import Experience from "../components/Experience";
-// import { FidgetSpinner } from "react-loader-spinner";
-import { ClimbingBoxLoader } from "react-spinners";
-
+import { PacmanLoader } from "react-spinners";
 import { useStateValue } from "../context/StateProvider";
 
 function Home() {
@@ -40,18 +37,7 @@ function Home() {
     <>
       {state.loading ? (
         <div className="min-h-screen w-full flex justify-center items-center bg-slate-900">
-          {/* <FidgetSpinner
-            visible={loading}
-            height="100"
-            width="100"
-            ariaLabel="dna-loading"
-            wrapperStyle={{}}
-            wrapperClass="dna-wrapper"
-            ballColors={["#fff", "#fff", "#fff"]}
-            backgroundColor="#3b82f6"
-          /> */}
-
-          <ClimbingBoxLoader color="#3b82f6" loading={true} size={20} />
+          <PacmanLoader color="#3b82f6" loading={true} size={50} />
         </div>
       ) : (
         <div className={state.loading2 ? ` bg-slate-900` : null}>

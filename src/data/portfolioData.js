@@ -7,6 +7,7 @@ import boomn from "../assets/portfolio/boomn.png";
 import cyber from "../assets/portfolio/cyber.png";
 import Keeper from "../assets/portfolio/Keeper.PNG";
 import amazon from "../assets/portfolio/amazon.png";
+import angularTodo from "../assets/portfolio/todo.png";
 
 export const portfolios = [
   {
@@ -94,6 +95,31 @@ export const portfolios = [
     title: "Keeper Website",
   },
   {
+    id: 8,
+    image: DBZ,
+    demo: "https://dragon-ball-blog.netlify.app/",
+    code: "https://github.com/manikverma7?tab=repositories",
+    download: "",
+    techStack: ["Nextjs", "Css3", "Cms"],
+    description: [
+      "A blog website regarding Dragon Ball Anime series built using Nextjs and Cms",
+    ],
+    descriptionColor: "text-black",
+    title: "Dragon Ball Blog",
+  },
+  {
+    id: 9,
+    image: angularTodo,
+    demo: "https://631a545b3395970e6b76df94--comfy-sopapillas-a195b4.netlify.app/",
+    code: "https://github.com/manikverma7/angular-todoapp",
+    download: "",
+    techStack: ["Angular", "Scss"],
+    description: ["A Todo List website built using Angular."],
+    descriptionColor: "text-black",
+    title: "Todo List",
+  },
+
+  {
     id: 5,
     image: Trillo,
     demo: "https://elastic-fermat-b44af6.netlify.app/",
@@ -127,18 +153,5 @@ export const portfolios = [
     ],
     descriptionColor: "text-black",
     title: "Newsletter Signup Page",
-  },
-  {
-    id: 8,
-    image: DBZ,
-    demo: "https://dragon-ball-blog.netlify.app/",
-    code: "https://github.com/manikverma7?tab=repositories",
-    download: "",
-    techStack: ["Nextjs", "Css3", "Cms"],
-    description: [
-      "A blog website regarding Dragon Ball Anime series built using Nextjs and Cms",
-    ],
-    descriptionColor: "text-black",
-    title: "Dragon Ball Blog",
   },
 ];

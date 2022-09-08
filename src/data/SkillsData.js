@@ -9,6 +9,8 @@ import redux from "../assets/redux.png";
 import angular from "../assets/angular.png";
 import bootstrap from "../assets/bootstrap.png";
 import firebase from "../assets/firebase.png";
+import ts from "../assets/ts.png";
+import nest from "../assets/nest.png";
 
 export const skills = [
   {
@@ -57,7 +59,13 @@ export const skills = [
     id: 8,
     image: angular,
     title: "Angular",
-    style: "shadow-red-500",
+    style: "shadow-red-600",
+  },
+  {
+    id: 13,
+    image: ts,
+    title: "Typescript",
+    style: "shadow-blue-400",
   },
   {
     id: 9,
@@ -82,5 +90,11 @@ export const skills = [
     image: firebase,
     title: "Firebase",
     style: "shadow-orange-400",
+  },
+  {
+    id: 14,
+    image: nest,
+    title: "Nestjs",
+    style: "shadow-red-500",
   },
 ];

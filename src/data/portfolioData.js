@@ -4,7 +4,7 @@ import Newsletter from "../assets/portfolio/Newsletter.png";
 import DBZ from "../assets/portfolio/DBZ.png";
 import activue from "../assets/portfolio/activue.png";
 import boomn from "../assets/portfolio/boomn.png";
-import cyber from "../assets/portfolio/cyber.png";
+import ipad from "../assets/portfolio/ipad.png";
 import Keeper from "../assets/portfolio/Keeper.PNG";
 import amazon from "../assets/portfolio/amazon.png";
 import angularTodo from "../assets/portfolio/todo.png";
@@ -60,15 +60,15 @@ export const portfolios = [
   },
   {
     id: 3,
-    image: cyber,
+    image: ipad,
     demo: "",
     code: "",
     download:
-      "https://drive.google.com/file/d/1hxZyALcl_DAvRAUzCT4Yf1E5HqphMN2X/view?usp=sharing",
+      "https://www.dropbox.com/s/vxyi94ez51taalr/Ipad-Tutorial.apk?dl=0",
     techStack: ["React Native"],
     description: ["A Mobile App built using React native and Redux"],
     descriptionColor: "text-black",
-    title: "Cyber Security Demo App",
+    title: "Ipad Tutorial App",
   },
   {
     id: 12,
@@ -119,17 +119,17 @@ export const portfolios = [
     title: "Todo List",
   },
 
-  {
-    id: 5,
-    image: Trillo,
-    demo: "https://elastic-fermat-b44af6.netlify.app/",
-    code: "https://github.com/manikverma7/Trillo-FlexBox",
-    download: "",
-    techStack: ["HTML5", "Scss", "Flexbox"],
-    description: ["A webpage built using Html5, Scss and Flexbox"],
-    descriptionColor: "text-pink-600",
-    title: "Trillo Webpage",
-  },
+  // {
+  //   id: 5,
+  //   image: Trillo,
+  //   demo: "https://elastic-fermat-b44af6.netlify.app/",
+  //   code: "https://github.com/manikverma7/Trillo-FlexBox",
+  //   download: "",
+  //   techStack: ["HTML5", "Scss", "Flexbox"],
+  //   description: ["A webpage built using Html5, Scss and Flexbox"],
+  //   descriptionColor: "text-pink-600",
+  //   title: "Trillo Webpage",
+  // },
   {
     id: 6,
     image: Nexter,

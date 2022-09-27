@@ -10,7 +10,7 @@ export const experiences = [
     date: "2015 - 2019",
   },
   {
-    title: "Content Writer",
+    title: "Content Writer (Part Time Work)",
     subTitle: "Tutorzone, Jalandhar, Punjab",
     body: "Wrote content in english to help Video Lecturers explain physics topics till 10th standard in video lectures.",
     icon: <WorkIcon />,

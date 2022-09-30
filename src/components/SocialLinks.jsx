@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoDocumentsOutline, IoDocumentOutline } from "react-icons/io5";
 
 function SocialLinks() {
@@ -55,7 +54,7 @@ function SocialLinks() {
           <IoDocumentOutline size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/manik-resume.pdf",
 
       download: true,
     },
@@ -67,7 +66,7 @@ function SocialLinks() {
           <IoDocumentsOutline size={30} />
         </>
       ),
-      href: "/cv.pdf",
+      href: "/manik-cv.pdf",
       style: "rounded-br-md",
       download: true,
     },

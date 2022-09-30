@@ -135,9 +135,9 @@ export const portfolios = [
     demo: "https://dragon-ball-blog.netlify.app/",
     code: "https://github.com/manikverma7?tab=repositories",
     download: "",
-    techStack: ["Nextjs", "Css3", "Cms"],
+    techStack: ["Nextjs", "Css3", "Sanity Cms"],
     description: [
-      "A blog website regarding Dragon Ball Anime series built using Nextjs and Cms",
+      "A blog website regarding Dragon Ball Anime series built using Nextjs and Sanity Cms",
     ],
     descriptionColor: "text-black",
     title: "Dragon Ball Blog",

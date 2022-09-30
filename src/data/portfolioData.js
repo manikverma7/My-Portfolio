@@ -1,11 +1,12 @@
 import Nexter from "../assets/portfolio/Nexter.png";
-import Trillo from "../assets/portfolio/Trillo.png";
 import Newsletter from "../assets/portfolio/Newsletter.png";
 import DBZ from "../assets/portfolio/DBZ.png";
 import activue from "../assets/portfolio/activue.png";
 import boomn from "../assets/portfolio/boomn.png";
 import ipad from "../assets/portfolio/ipad.png";
 import Keeper from "../assets/portfolio/Keeper.PNG";
+import delivery from "../assets/portfolio/delivery.png";
+
 import amazon from "../assets/portfolio/amazon.png";
 import angularTodo from "../assets/portfolio/todo.png";
 
@@ -69,6 +70,18 @@ export const portfolios = [
     description: ["A Mobile App built using React native and Redux"],
     descriptionColor: "text-black",
     title: "Ipad Tutorial App",
+  },
+  {
+    id: 34,
+    image: delivery,
+    demo: "",
+    code: "https://github.com/manikverma7/delivery-app",
+    download:
+      "https://drive.google.com/file/d/1fNkZdEtaa1cdJzRS_1kwkMQFzRVdIzqd/view?usp=sharing",
+    techStack: ["React Native"],
+    description: ["A Mobile App built using React native and Redux"],
+    descriptionColor: "text-black",
+    title: "Food delivery demo App",
   },
   {
     id: 12,

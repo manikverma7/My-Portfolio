@@ -50,30 +50,33 @@ function ProjectDetail() {
           ))}
         </div>
 
-        <div className="flex items-center w-full md:w-4/5">
+        <div className=" w-full md:w-4/5">
           {selectedProject?.demo ? (
-            <>
-              <button
-                className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center px-10 py-3 text-center text-white cursor-pointer  hover:scale-105 mt-8 mr-8"
-                onClick={() => openInNewTab(selectedProject?.demo)}
-              >
-                Demo
-              </button>
-              <button
-                className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center px-10 py-3   text-white cursor-pointer  hover:scale-105 mt-8"
-                onClick={() => openInNewTab(selectedProject?.code)}
-              >
-                Code
-              </button>
-            </>
-          ) : (
             <button
-              className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center will-change-transform px-6 py-3 my-2  text-white cursor-pointer z-1 hover:scale-105 mt-8"
+              className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center will-change-transform px-6 py-3 my-2 text-white cursor-pointer z-1 hover:scale-105 mt-8 block"
+              onClick={() => openInNewTab(selectedProject?.demo)}
+            >
+              Demo
+            </button>
+          ) : null}
+
+          {selectedProject?.download ? (
+            <button
+              className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center will-change-transform px-6 py-3 my-2 text-white cursor-pointer z-1 hover:scale-105 mt-8 block"
               onClick={() => openInNewTab(selectedProject?.download)}
             >
               Download Apk
             </button>
-          )}
+          ) : null}
+
+          {selectedProject?.code ? (
+            <button
+              className="bg-gradient-to-r w-full duration-200 from-cyan-500 to-blue-500 rounded-md items-center will-change-transform px-6 py-3 my-2 text-white cursor-pointer z-1 hover:scale-105 mt-8 block"
+              onClick={() => openInNewTab(selectedProject?.code)}
+            >
+              Code
+            </button>
+          ) : null}
         </div>
       </div>
     </div>

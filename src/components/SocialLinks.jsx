@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { IoDocumentsOutline, IoDocumentOutline } from "react-icons/io5";
 
 function SocialLinks() {
   const socialLinks = [
@@ -51,10 +52,22 @@ function SocialLinks() {
       child: (
         <>
           Resume
-          <BsFillPersonLinesFill size={30} />
+          <IoDocumentOutline size={30} />
         </>
       ),
       href: "/resume.pdf",
+
+      download: true,
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          C.V.
+          <IoDocumentsOutline size={30} />
+        </>
+      ),
+      href: "/cv.pdf",
       style: "rounded-br-md",
       download: true,
     },

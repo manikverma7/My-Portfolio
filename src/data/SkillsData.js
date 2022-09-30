@@ -50,17 +50,18 @@ export const skills = [
     style: "shadow-purple-900",
   },
   {
-    id: 7,
-    image: next,
-    title: "Nextjs",
-    style: "shadow-white",
-  },
-  {
     id: 8,
     image: angular,
     title: "Angular",
     style: "shadow-red-600",
   },
+  {
+    id: 7,
+    image: next,
+    title: "Nextjs",
+    style: "shadow-white",
+  },
+
   {
     id: 13,
     image: ts,

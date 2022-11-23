@@ -70,7 +70,7 @@ export const portfolios = [
     download: "https://www.dropbox.com/s/2mrkw2ws97a8tjj/User-Guide.apk?dl=0",
     techStack: ["React Native"],
     description: [
-      "• App built for Mobile (Platform- Android and Ios) and for Tablet",
+      "• App built for Mobile (Platform- Android and Ios) and for Tablet And Ipad",
       "• Built using React native",
       "• Used react-native-video package for playing tutorial videos both in Android and Ios",
       "• Customized Seekbar controls using the events provided by react-native-video package",

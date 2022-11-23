@@ -67,8 +67,7 @@ export const portfolios = [
 
     demo: "",
     code: "",
-    download:
-      "https://www.dropbox.com/s/vxyi94ez51taalr/Ipad-Tutorial.apk?dl=0",
+    download: "https://www.dropbox.com/s/2mrkw2ws97a8tjj/User-Guide.apk?dl=0",
     techStack: ["React Native"],
     description: [
       "• App built for Mobile (Platform- Android and Ios) and for Tablet",
@@ -77,7 +76,7 @@ export const portfolios = [
       "• Customized Seekbar controls using the events provided by react-native-video package",
     ],
     descriptionColor: "text-black",
-    title: "Ipad Tutorial App",
+    title: "User Guide App",
     subtitle: "Video Tutorial App",
   },
   {

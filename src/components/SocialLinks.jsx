@@ -54,7 +54,7 @@ function SocialLinks() {
           <IoDocumentOutline size={30} />
         </>
       ),
-      href: "/manik-resume.pdf",
+      href: "/Manik_Verma_Resume.pdf",
 
       download: true,
     },
@@ -66,7 +66,7 @@ function SocialLinks() {
           <IoDocumentsOutline size={30} />
         </>
       ),
-      href: "/manik-cv.pdf",
+      href: "/Manik_Verma_CV.pdf",
       style: "rounded-br-md",
       download: true,
     },
